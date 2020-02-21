@@ -1,0 +1,10 @@
+# This Dockerfile deploys to S3
+
+# Use the local docker image built
+FROM documentation:latest AS documentation
+
+# Use awscli to upload
+FROM dockereng/awscli:1.16.156 AS deploy
+ENV TARGET=/usr/share/nginx/html
+
+COPY --from=documentation ${TARGET} /deploy
