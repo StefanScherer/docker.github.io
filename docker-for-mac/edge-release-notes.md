@@ -12,9 +12,9 @@ For information about Stable releases, see the [Stable release notes](release-no
 [What to know before you install](install.md#what-to-know-before-you-install).
 
 ## Docker Desktop Community 2.3.3.2
-2020-07-date
+2020-07-21
 
-Download info
+> [Download](https://desktop.docker.com/mac/edge/46784/Docker.dmg)
 
 ### Upgrades
 
@@ -23,7 +23,7 @@ Download info
 
 ### Bug fixes and minor changes
 
-- Mutagen uses the `.dockerignore` file when creating a session to filter the list of synchronized files. See [docker/for-mac#4595](https://github.com/docker/for-mac/issues/4595#issuecomment-634605312).
+- Mutagen uses the `.dockerignore` file when creating a session to filter the list of synchronized files. See [docker/for-mac#4621](https://github.com/docker/for-mac/issues/4621).
 - Docker CLI commands can now bypass any active Mutagen synchronization for volumes using `:cached`. See [docker/for-mac#1592](https://github.com/docker/for-mac/issues/1592#issuecomment-651309816).
 
 ## Docker Desktop Community 2.3.3.0
